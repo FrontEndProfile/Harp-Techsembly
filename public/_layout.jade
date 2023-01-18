@@ -1,0 +1,10 @@
+doctype
+html(lang="en")
+  head
+    != partial("_shared/head")
+    != partial("_shared/font-face")
+  body
+    != partial("_shared/header")
+    != yield
+
+    script(src='../log.js') 

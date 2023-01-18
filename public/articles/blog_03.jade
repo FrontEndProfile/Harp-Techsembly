@@ -1,0 +1,18 @@
+.container
+ .row 
+   .col 
+        h1.blog_tittle #{ blog_03.title }
+
+        .blog_img
+            img.blog_img_tag.d-block.mx-lg-auto.img-fluid(loading='lazy', src='#{ blog_03.image }', alt='')
+        |                 
+        .blog_content
+        h2.blog_sub_tittle #{ blog_03.sub_title }                   
+        p #{ blog_03.description }                   
+        p #{ blog_03.description }
+
+        ul.blog_content_ls
+            li #{ blog_03.ls_01 }
+            li #{ blog_03.ls_02 }
+            li #{ blog_03.ls_03 }
+            li #{ blog_03.ls_04 }

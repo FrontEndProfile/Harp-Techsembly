@@ -1,0 +1,19 @@
+.container.py-4
+  .p-5.mb-4.bg-light.rounded-3.short_card
+    .container-fluid.py-5
+      h1.display-5.fw-bold.note #{ blog_01.title }
+      p.col-md-8.fs-4.over_shot #{ blog_01.description }
+      a.btn.btn-primary.btn-lgd(href='articles/blog_01') Read More
+  .row.align-items-md-stretch
+    .col-md-6
+      .h-100.p-5.text-bg-dark.rounded-3
+        h2 #{ blog_02.title }
+        p.over_shot #{ blog_02.description }
+        a.btn.btn-outline-light(href='articles/blog_02') Read More
+    .col-md-6
+      .h-100.p-5.bg-light.border.rounded-3
+        h2 #{ blog_03.title }
+        p.over_shot #{ blog_03.description }
+        a.btn.btn-outline-secondary(href='articles/blog_03') Read More
+  footer.pt-3.mt-4.text-muted.border-top
+    | © 2022

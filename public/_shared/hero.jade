@@ -1,0 +1,13 @@
+html
+  head
+  body
+    .container.col-xxl-12.py-5
+      .row.flex-lg-row-reverse.align-items-center.g-5.py-5
+        .col-10.col-sm-8.col-lg-6
+          img.d-block.mx-lg-auto.img-fluid(src= '#{ home.image }', alt='Bootstrap Themes', loading='lazy', width='700', height='500')
+        .col-lg-6
+          h1.display-5.fw-bold.lh-1.mb-3 #{ home.title }
+          p.lead #{ home.description }
+        .d-grid.gap-2.d-md-flex.justify-content-md-start.mt-0
+          a.btn.btn-primary.btn-lg.px-4.me-md-2(href='views/home_full') Get Start
+          a.btn.btn-primary.btn-lg.px-4.me-md-2(href='http://harpjs.com/') Doc Harp
